@@ -58,30 +58,32 @@ Together, these projects show how someone can go from writing their first line o
 Installation depends on your operating system
 
 ### On Windows
-Go to the official R website: https://cran.r-project.org
-Click Download R for Windows
-Select base → Download the installer
-Run the installer and follow the default setup options
+- Go to the official R website: https://cran.r-project.org
+- Click Download R for Windows
+- Select base → Download the installer
+- Run the installer and follow the default setup options
 
 ### On macOS
-Visit: https://cran.r-project.org
-Click Download R for macOS
-Download the .pkg file
-Open it and follow the installation steps
+- Visit: https://cran.r-project.org
+- Click Download R for macOS
+- Download the .pkg file
+- Open it and follow the installation steps
 
 ### On Linux
-Go to: https://cran.r-project.org
-Select your Linux distribution
-Follow the provided terminal instructions for your system
+- Go to: https://cran.r-project.org
+- Select your Linux distribution
+- Follow the provided terminal instructions for your system
 
 ## Install RStudio
-Visit: https://posit.co/download/rstudio-desktop/
-Download RStudio Desktop for your operating system
-Install and open RStudio
+- Visit: https://posit.co/download/rstudio-desktop/
+- Download RStudio Desktop for your operating system
+- Install and open RStudio
 
 ## Verify the Installation
 Open RStudio and run the following command in the Console:
 
-```print("R is working!")```
+        ``` print("R is working!") ```
 
 If you see the message printed, your installation was successful.
+
+# Working examples
