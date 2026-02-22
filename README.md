@@ -142,7 +142,7 @@ This script builds on the first example by introducing:
 
 ##### A basic visualization using ggplot2
 ```
-Install Required Package (Once)
+#Install Required Package (Once)
 install.packages("ggplot2")
 Code
 # Load library
