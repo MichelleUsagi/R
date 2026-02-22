@@ -182,20 +182,26 @@ Goal: Build foundational understanding before setup or coding.
 #### Prompt 1: Exploring the Technology
 **Prompt Used:**
 “What is R and what do people usually use it for?”
+
 **Purpose of the Prompt:**
 To understand the role of R and whether it was suitable for this project.
+
 **Outcome:**
 The AI explained R’s focus on data analysis and visualization using simple examples.
+
 **Reflection:**
 This prompt helped justify the technology choice and guided the direction of the project.
 
 #### Prompt 2: Evaluating Relevance
 **Prompt Used:**
 “Why would someone choose R instead of other programming languages?”
+
 **Purpose of the Prompt:**
 To understand R’s strengths and limitations at a beginner level.
+
 **Outcome:**
 The AI clarified that R is widely used in data-focused fields and complements other languages.
+
 **Reflection:**
 This reinforced confidence in continuing with R for the capstone.
 
@@ -205,30 +211,39 @@ Goal: Set up a working R environment that could be replicated by other beginners
 #### Prompt 3: Installing R
 **Prompt Used:**
 “How do I install R on my computer?”
+
 **Purpose of the Prompt:**
 To obtain step-by-step installation instructions without prior knowledge.
+
 **Outcome:**
 The AI provided clear installation steps and download sources.
+
 **Reflection:**
 This reduced setup errors and ensured a functional development environment.
 
 #### Prompt 4: Understanding Tools
 **Prompt Used:**
 “What is RStudio and why do people use it with R?”
+
 **Purpose of the Prompt:**
 To understand the role of RStudio before installing it.
+
 **Outcome:**
 The AI explained that RStudio is an IDE that simplifies writing and running R code.
+
 **Reflection:**
 This helped make informed tool choices rather than blindly following instructions.
 
 #### Prompt 5: Verifying the Setup
 **Prompt Used:**
 “How can I check if R is installed correctly?”
+
 **Purpose of the Prompt:**
 To confirm that the environment was ready before coding.
+
 **Outcome:**
 The AI suggested running a simple command to verify the installation.
+
 **Reflection:**
 This step prevented future errors and ensured readiness to proceed.
 
@@ -238,20 +253,26 @@ Goal: Create a runnable R script demonstrating basic functionality.
 #### Prompt 6: First Code Execution
 **Prompt Used:**
 “What is the simplest thing I can write in R to see output?”
+
 **Purpose of the Prompt:**
 To learn how R code executes and produces output.
+
 **Outcome:**
 The AI introduced basic printing and script execution.
+
 **Reflection:**
 This established confidence in writing and running R code.
 
 #### Prompt 7: Working with Data
 **Prompt Used:**
 “How do I work with numbers and simple data in R?”
+
 **Purpose of the Prompt:**
 To understand how R handles data.
+
 **Outcome:**
 The AI introduced vectors and basic statistical functions.
+
 **Reflection:**
 This step connected R syntax with real data use cases.
 
@@ -261,20 +282,26 @@ Goal: Produce a meaningful visual output using R.
 #### Prompt 8: Learning Visualization Concepts
 **Prompt Used:**
 “How do people create charts in R?”
+
 **Purpose of the Prompt:**
 To understand visualization tools before writing code.
+
 **Outcome:**
 The AI explained ggplot2 and its role in R visualization.
+
 **Reflection:**
 This prepared me to approach visualization with context.
 
 #### Prompt 9: Implementing the Visualization
 **Prompt Used:**
 “Can you show me a very simple chart in R and explain each part?”
+
 **Purpose of the Prompt:**
 To create a working visualization.
+
 **Outcome:**
 The AI generated a basic bar chart example and explained it step by step.
+
 **Reflection:**
 This resulted in a functional visualization that could be easily replicated.
 
