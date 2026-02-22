@@ -27,6 +27,7 @@ By the end of this project, two small but functional projects are completed:
 - Creates a small dataset
 - Calculates summary statistics
 - Displays the data using a clear visual built with ggplot2
+
 Together, these projects show how someone can go from writing their first line of R code to creating meaningful data outputs, using AI as a learning partner along the way.
 
 # 2. Quick summary of the technology
