@@ -87,3 +87,89 @@ Open RStudio and run the following command in the Console:
 If you see the message printed, your installation was successful.
 
 # Working examples
+Here w e get to view two simple Rprojects to show a clear learning progression:
+
+- A basic R script
+- A simple data visualization script
+
+### Project Structure
+
+The project folder will look like this: 
+      ```
+      R/
+      |--README.md
+      |-- hello_world.R
+      |-- visualization.R
+      ```
+#### Part 1: Basic R Script MVP (hello_world.R)
+This script demonstrates:
+- Printing output
+- Using variables
+- Performing a simple calculation
+```
+# Print a greeting
+print("Welcome to the R Toolkit MVP!")
+
+# Create a variable
+name <- "Student"
+
+# Print a personalized message
+print(paste("Hello,", name))
+
+# Simple calculation
+numbers <- c(10, 20, 30, 40, 50)
+average <- mean(numbers)
+
+print(paste("The average value is:", average))
+How to Run
+```
+
+Open the file in RStudio
+Click Run or press Ctrl + Enter
+
+Expected Output
+[1] "Welcome to the R Toolkit MVP!"
+[1] "Hello, Student"
+[1] "The average value is: 30"
+Part 2: Data Visualization MVP (hello_world_visualization.R)
+
+This script builds on the first example by introducing:
+
+A simple dataset
+
+Summary statistics
+
+#### A basic visualization using ggplot2
+```
+Install Required Package (Once)
+install.packages("ggplot2")
+Code
+# Load library
+library(ggplot2)
+
+# Create a dataset
+data <- data.frame(
+  Age_Group = c("20–24", "25–29", "30–34", "35–39", "40–44"),
+  Population = c(120, 150, 180, 130, 90)
+)
+
+# Calculate average population
+avg_population <- mean(data$Population)
+print(paste("Average population:", avg_population))
+
+# Create a bar chart
+ggplot(data, aes(x = Age_Group, y = Population)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Population Distribution by Age Group",
+    x = "Age Group",
+    y = "Population Count"
+  )
+```
+Expected Behavior
+
+The console displays the average population value
+
+A bar chart appears showing population by age group
+
+This example demonstrates how R can be used to move from raw data to visual insight in just a few lines of code.
