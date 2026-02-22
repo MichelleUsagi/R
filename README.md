@@ -97,6 +97,7 @@ Here w e get to view two simple Rprojects to show a clear learning progression:
 ### Project Structure
 
 The project folder will look like this: 
+
       ```
       R/
       |--README.md
